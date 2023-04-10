@@ -1,0 +1,1042 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(232, 222, 200);
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.style1 {
+    height: 100px;
+    margin-bottom: 2em;
+}
+
+header {
+    float: left;
+    width: 20%;
+    text-align: center;
+    background: rgb(242, 255, 169);
+    margin: 20px;
+    padding: 18px 20px 18px 12px;
+    border-radius: 50px;
+    font-family: 'DynaPuff', cursive;
+    border: 4px solid wheat;
+}
+
+header img {
+    float: left;
+    padding: 0px;
+    margin: 8px;
+}
+
+
+nav {
+    float: right;
+    text-align: center;
+    background: rgb(242, 255, 169);
+    width: 55%;
+    margin: 25px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    border: 4px solid wheat;
+}
+
+nav a {
+    font-size: 30px;
+    padding: 15px 10px;
+    display: inline-block;
+    color: rgb(124, 79, 17);
+    font-family: 'DynaPuff', cursive;
+}
+
+nav a:hover {
+    background: rgb(233, 202, 97);
+    color: rgb(92, 92, 92);
+    border-radius: 15px;
+}
+
+main {
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+/*section1*/
+
+.introduction1 {
+    float: left;
+    margin: 0px;
+    padding: 20px;
+    height: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 標楷體;
+
+}
+
+.introduction2 {
+    float: right;
+    width: 60%;
+    height: 60%;
+    margin: 0px;
+    padding-left: 2cm;
+    padding-top: 0.5cm;
+    font-size: 27px;
+    font-family: 'DynaPuff', 標楷體;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(24, 60, 94);
+}
+
+.myphoto {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    width: 100%;
+    border: 10px double whitesmoke;
+}
+
+.introduction {
+    flex-direction: row;
+    background-image: url(./image/introdoction_bg.png);
+    background-size: 1800px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-image-width: 100%;
+    margin: 0px auto;
+    padding: 7em;
+    width: 80%;
+    height: 700px;
+    text-align: left;
+    justify-content: center;
+}
+
+/*.introduction img {
+    z-index: 1;
+    width: 600px;
+    height: 100%;
+}*/
+
+.slogan {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    background: rgb(241, 218, 183);
+    color: rgb(101, 67, 55);
+    border: 5px dashed rgb(167, 97, 53);
+    width: 10cm;
+    height: 2cm;
+    border-radius: 50px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+/*section2*/
+
+.skill {
+    margin: 5px auto;
+    padding: 0px;
+    height: 400px;
+    justify-content: center;
+}
+
+.skill1 {
+    margin: 0px;
+    padding: 10px 0px;
+    float: left;
+    width: 35%;
+    height: 390px;
+    align-items: center;
+}
+
+.skill2 {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: 64%;
+    height: 390px;
+    display: flex;
+    justify-content: left;
+}
+
+.skill_txt {
+    justify-content: flex-start;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    width: 100px;
+    height: 95%;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 20px;
+    font-size: 45px;
+    background: rgb(91, 41, 18);
+    color: white;
+    border-radius: 50px;
+    font-family: 微軟正黑體;
+    border: 3px outset white;
+    vertical-align: middle;
+}
+
+.skill1_1 {
+    margin: 0px;
+    padding: 0px;
+    height: 90%;
+    text-align: center;
+    float: right;
+    width: 80%;
+}
+
+.skill1_1_txt {
+    margin: 0px;
+    padding: 0px;
+    height: 20%;
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+
+.progress {
+    margin: 0px;
+    padding: 0px;
+    height: 20%;
+    text-align: left;
+    float: right;
+    width: 80%;
+}
+
+.progress1_p {
+    margin: 0px;
+    padding: 30px 10px;
+    display: inline-block;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Oleo Script';
+}
+
+/*
+.p_id {
+    margin: 0px;
+    padding: 0px 0px;
+    display: inline-block;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid honeydew;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}*/
+
+.loading {
+    background-color: #5f462c;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0px;
+    border-radius: 25px 25px;
+    border: #ccc;
+}
+
+/*
+#file {
+    height: 60px;
+    width: 100%;
+}*/
+
+/*loading*/
+
+div.file1 {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgb(139, 130, 124);
+    animation: move1 3s linear infinite;
+}
+
+@keyframes move1 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 60%;
+    }
+
+}
+
+div.file2 {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgb(139, 130, 124);
+    animation: move2 3s linear infinite;
+}
+
+@keyframes move2 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 50%;
+    }
+
+}
+
+div.file3 {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgb(139, 130, 124);
+    animation: move3 3s linear infinite;
+}
+
+@keyframes move3 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 80%;
+    }
+
+}
+
+div.file4 {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgb(139, 130, 124);
+    animation: move4 3s linear infinite;
+}
+
+@keyframes move4 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 55%;
+    }
+
+}
+
+div.file5 {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgb(139, 130, 124);
+    animation: move5 3s linear infinite;
+}
+
+@keyframes move5 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 60%;
+    }
+
+}
+
+
+
+/*skill2_block*/
+
+.skill2_block {
+    margin: 0px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+
+.block1 {
+    margin: 20px 0px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    height: 90%;
+}
+
+.list1 {
+    height: 57%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.list1>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide1 20s infinite;
+    opacity: 0;
+}
+
+/*img*/
+.list1>a>img {
+    max-width: 100%;
+}
+
+.list1>a:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.list1>a:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.list1>a:nth-child(4) {
+    animation-delay: 15s;
+}
+
+/*list1_1*/
+
+.list1_1>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide1 20s infinite;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list1_1 {
+    margin-bottom: 25%;
+    float: inline-end;
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 4px double #5f462c;
+}
+
+.list1_1>a>p {
+    max-width: 100%;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    float: inline-start;
+    color: #5f462c;
+    font-weight: bold;
+}
+
+.list1_1>a:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.list1_1>a:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.list1_1>a:nth-child(4) {
+    animation-delay: 15s;
+}
+
+
+/*block2*/
+
+@keyframes slide1 {
+    20% {
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    80% {
+        transform: scale(1.1);
+    }
+}
+
+
+.block2 {
+    margin: 20px 5px 20px 15px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    height: 90%;
+}
+
+
+.list2 {
+    width: 100%;
+    height: 57%;
+    overflow: hidden;
+    position: relative;
+}
+
+.list2>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide2 15s infinite;
+    opacity: 0;
+}
+
+.list2>a>img {
+    max-width: 100%;
+}
+
+.list2>a:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.list2>a:nth-child(3) {
+    animation-delay: 10s;
+}
+
+
+@keyframes slide2 {
+    33% {
+        opacity: 1;
+    }
+
+    63% {
+        transform: scale(1.1);
+    }
+}
+
+
+/*list2_1*/
+
+.list2_1>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide1 20s infinite;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list2_1 {
+    margin-bottom: 25%;
+    float: inline-end;
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 4px double #5f462c;
+}
+
+.list2_1>a>p {
+    max-width: 100%;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    float: inline-start;
+    color: #5f462c;
+    font-weight: bold;
+}
+
+.list2_1>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide2 15s infinite;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list2_1>a>img {
+    max-width: 100%;
+}
+
+.list2_1>a:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.list2_1>a:nth-child(3) {
+    animation-delay: 10s;
+}
+
+
+/*block3*/
+
+.block3 {
+    margin: 20px 0px 5px 10px;
+    padding: 0px;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 90%;
+}
+
+
+.list3 {
+    width: 100%;
+    height: 57%;
+    overflow: hidden;
+    position: relative;
+}
+
+.list3>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide3 25s infinite;
+    opacity: 0;
+}
+
+.list3>a>img {
+    max-width: 100%;
+}
+
+.list3>a:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.list3>a:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.list3>a:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.list3>a:nth-child(5) {
+    animation-delay: 20s;
+}
+
+@keyframes slide3 {
+    20% {
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    80% {
+        transform: scale(1.1);
+    }
+}
+
+
+/*list3_1*/
+
+.list3_1>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide1 20s infinite;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list3_1 {
+    margin-bottom: 25%;
+    float: inline-end;
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 4px double #5f462c;
+}
+
+.list3_1>a>p {
+    max-width: 100%;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    float: inline-start;
+    color: #5f462c;
+    font-weight: bold;
+}
+
+.list3_1>a {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    animation: slide3 15s infinite;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list3_1>a>p {
+    max-width: 100%;
+}
+
+.list3_1>a:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.list3_1>a:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.list3_1>a:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.list3_1>a:nth-child(5) {
+    animation-delay: 20s;
+}
+
+
+
+/*section3*/
+
+.social {
+    margin: 2cm;
+    padding: 20px;
+    border: 10px solid rgb(255, 167, 164);
+    border-radius: 50px;
+    background: rgb(253, 206, 198);
+    align-items: center;
+    height: 670px;
+    width: 90%;
+}
+
+.social1 {
+    float: left;
+    width: 48%;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.social2 {
+    float: right;
+    width: 52%;
+    padding: 10px 0px;
+}
+
+.social2_txt1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 標楷體;
+    font-weight: bold;
+    color: rgb(139, 53, 50);
+}
+
+.social2_txt2 {
+    font-size: 25px;
+    text-align: justify;
+    padding: 0px;
+    margin-top: 10px;
+    white-space: wrap;
+    text-indent: 4pc;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: rgb(155, 74, 71);
+}
+
+.social2_yt {
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.band1 img {
+    margin: 0px 0px 0px 0.2cm auto;
+    padding-left: 0cm;
+    margin-bottom: 0.4cm;
+    display: inline-block;
+    border-radius: 30px;
+    align-items: center;
+    opacity: 0.8;
+    border: 3px solid whitesmoke;
+}
+
+.band1 img:hover {
+    opacity: 1;
+}
+
+.band {
+    display: inline-block;
+    justify-content: center;
+}
+
+
+
+
+/*section4*/
+
+.volunteer {
+    margin: 2cm;
+    padding: 20px;
+    border: 10px solid rgb(83, 114, 102);
+    border-radius: 50px;
+    background: rgb(211, 251, 219);
+    align-items: center;
+    height: 650px;
+}
+
+.volunteer1 {
+    float: left;
+    width: 40%;
+    padding: 10px 20px;
+}
+
+.volunteer2 {
+    float: right;
+    width: 58%;
+    padding: 10px 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.volunteer1_txt1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Oleo Script';
+    color: rgb(59, 89, 79);
+}
+
+.volunteer1_txt2 {
+    font-size: 25px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: rgb(81, 116, 104);
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    white-space: wrap;
+    text-indent: 4pc;
+    letter-spacing: 3px;
+    line-height: 1.7;
+}
+
+
+@keyframes imgrun {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+ul.volunteer_img {
+    width: 4250px;
+    list-style: none;
+    animation: imgrun 25s linear infinite normal;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+ul li img {
+    width: 100%;
+    height: 500px;
+}
+
+/*section5*/
+
+.LifeStyle {
+    margin: 2cm;
+    padding: 20px;
+    border: 10px solid rgb(220, 162, 152);
+    border-radius: 50px;
+    background: rgb(253, 206, 198);
+    height: 650px;
+}
+
+.LifeStyle1 {
+    padding: 5px;
+    float: inline-start;
+    height: 20%;
+}
+
+.LifeStyle1 p {
+    font-size: 70px;
+    font-family: 'DynaPuff', cursive;
+    letter-spacing: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    border-style: ridge;
+    background-image: linear-gradient(to right, rgba(225, 80, 100, 0.7), rgba(225, 80, 100, 0.3), rgba(225, 80, 100, 0.7));
+}
+
+.LifeStyle2 {
+    padding: 0px;
+    margin: 0px;
+    float: inline-end;
+    height: 80%;
+    border: 5px dashed white;
+}
+
+.LifeStyle2_1 {
+    padding: 0px;
+    float: left;
+    width: 38%;
+    height: 100%;
+}
+
+.LifeStyle2_2 {
+    padding-right: 20px;
+    float: right;
+    width: 61%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.LifeStyle1_txt {
+    padding: 10px 15px 10px 15px;
+    float: left;
+    width: 45%;
+    height: 100%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: 3px;
+    white-space: wrap;
+    font-size: 30px;
+    line-height: 2;
+    text-align: center;
+    align-items: center;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    color: rgb(193, 69, 123);
+}
+
+.LifeStyle1_vedio {
+    padding-top: 5px;
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+
+ul.Lifeslides {
+    width: 3500px;
+    list-style: none;
+    animation: imgrun 25s linear infinite reverse;
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
+}
+
+ul li.imgslides {
+    float: left;
+    width: 680px;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+ul li.imgslides img {
+    width: 100%;
+    height: 450px;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+footer {
+    background: rgb(243, 255, 172);
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    height: 150px;
+}
+
+footer p {
+    font-family: Arial, 標楷體;
+    font-size: 15px;
+}
+
+footer a {
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+div.fixtop {
+    position: fixed;
+    right: 0.3cm;
+    bottom: 20%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.topimg {
+    width: 100%;
+}
