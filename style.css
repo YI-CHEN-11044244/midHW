@@ -712,7 +712,7 @@ div.file5 {
     height: 100%;
     background-size: cover;
     position: absolute;
-    animation: slide3 15s infinite;
+    animation: slide3 25s infinite;
     opacity: 0;
     display: flex;
     justify-content: center;
